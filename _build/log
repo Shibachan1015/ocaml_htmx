@@ -1,0 +1,132 @@
+# dune exec ocaml_htmx -w
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# /Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx
+# Auto-detected concurrency: 12
+$ /Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlc.opt -config > /var/folders/s_/jrs0jfqs6_q4fz3rm0mnk8740000gn/T/dune_01191c_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/takashiba/.opam/ocaml.5.0.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/takashiba/.opam/ocaml.5.0.0/bin"
+#  ; ocaml = Ok External "/Users/takashiba/.opam/ocaml.5.0.0/bin/ocaml"
+#  ; ocamlc = External "/Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/takashiba/.opam/ocaml.5.0.0/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml:/Users/takashiba/.opam/ocaml.5.0.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx"
+#        ; "INSIDE_DUNE" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx/_build/default"
+#        ; "MANPATH" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/takashiba/Shibachan1015/Ocaml/projects/example/ocaml_htmx/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml"
+#      ; External "/Users/takashiba/.opam/ocaml.5.0.0/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default =
+#          "/Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml"
+#      ; standard_library = "/Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags =
+#          [ "-D_FILE_OFFSET_BITS=64"; "-I/usr/local/opt/tcl-tk/include" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags =
+#          [ "-D_FILE_OFFSET_BITS=64"; "-I/usr/local/opt/tcl-tk/include" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-I/usr/local/opt/tcl-tk/include"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-I/usr/local/opt/tcl-tk/include"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin22.4.0"
+#      ; target = "x86_64-apple-darwin22.4.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I bin/.main.eobjs/byte -I /Users/takashiba/.opam/ocaml.5.0.0/lib/angstrom -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/base_internalhash_types -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/caml -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/shadow_stdlib -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base64 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base64/rfc2045 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigarray-overlap -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigstringaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bytes -I /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti -I /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/cstruct -I /Users/takashiba/.opam/ocaml.5.0.0/lib/digestif/c -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-html -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-hpack -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_ -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-websocketaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-pure -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/certificate -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/cipher -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphiql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/http -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/server -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/sql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/duration -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/bigstring -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/cstruct -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/fmt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql_parser -I /Users/takashiba/.opam/ocaml.5.0.0/lib/hmap -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ke -I /Users/takashiba/.opam/ocaml.5.0.0/lib/logs -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt_ssl -I /Users/takashiba/.opam/ocaml.5.0.0/lib/magic-mime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-clock -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime/clock/os -I /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form -I /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/str -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/threads -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian/bigstring -I /Users/takashiba/.opam/ocaml.5.0.0/lib/pecu -I /Users/takashiba/.opam/ocaml.5.0.0/lib/prettym -I /Users/takashiba/.opam/ocaml.5.0.0/lib/psq -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime/clock/os -I /Users/takashiba/.opam/ocaml.5.0.0/lib/re -I /Users/takashiba/.opam/ocaml.5.0.0/lib/result -I /Users/takashiba/.opam/ocaml.5.0.0/lib/rresult -I /Users/takashiba/.opam/ocaml.5.0.0/lib/seq -I /Users/takashiba/.opam/ocaml.5.0.0/lib/sexplib0 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ssl -I /Users/takashiba/.opam/ocaml.5.0.0/lib/stringext -I /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml -I /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml/functor -I /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd -I /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd/parser -I /Users/takashiba/.opam/ocaml.5.0.0/lib/uri -I /Users/takashiba/.opam/ocaml.5.0.0/lib/uutf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/yojson -I lib/.ocaml_htmx.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf bin/main.pp.mli)
+$ (cd _build/default && /Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /Users/takashiba/.opam/ocaml.5.0.0/lib/angstrom -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/base_internalhash_types -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/caml -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/shadow_stdlib -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base64 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base64/rfc2045 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigarray-overlap -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigstringaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bytes -I /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti -I /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/cstruct -I /Users/takashiba/.opam/ocaml.5.0.0/lib/digestif/c -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-html -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-hpack -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_ -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-websocketaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-pure -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/certificate -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/cipher -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphiql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/http -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/server -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/sql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/duration -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/bigstring -I /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/cstruct -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt-unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/fmt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql_parser -I /Users/takashiba/.opam/ocaml.5.0.0/lib/hmap -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ke -I /Users/takashiba/.opam/ocaml.5.0.0/lib/logs -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt_ssl -I /Users/takashiba/.opam/ocaml.5.0.0/lib/magic-mime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-clock -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime/clock/os -I /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form -I /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form-lwt -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/str -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/threads -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/unix -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian/bigstring -I /Users/takashiba/.opam/ocaml.5.0.0/lib/pecu -I /Users/takashiba/.opam/ocaml.5.0.0/lib/prettym -I /Users/takashiba/.opam/ocaml.5.0.0/lib/psq -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime/clock/os -I /Users/takashiba/.opam/ocaml.5.0.0/lib/re -I /Users/takashiba/.opam/ocaml.5.0.0/lib/result -I /Users/takashiba/.opam/ocaml.5.0.0/lib/rresult -I /Users/takashiba/.opam/ocaml.5.0.0/lib/seq -I /Users/takashiba/.opam/ocaml.5.0.0/lib/sexplib0 -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ssl -I /Users/takashiba/.opam/ocaml.5.0.0/lib/stringext -I /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml -I /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml/functor -I /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd -I /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd/parser -I /Users/takashiba/.opam/ocaml.5.0.0/lib/uri -I /Users/takashiba/.opam/ocaml.5.0.0/lib/uutf -I /Users/takashiba/.opam/ocaml.5.0.0/lib/yojson -I lib/.ocaml_htmx.objs/byte -I lib/.ocaml_htmx.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.pp.ml)
+$ (cd _build/default && /Users/takashiba/.opam/ocaml.5.0.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe /Users/takashiba/.opam/ocaml.5.0.0/lib/bigstringaf/bigstringaf.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigstringaf /Users/takashiba/.opam/ocaml.5.0.0/lib/angstrom/angstrom.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/logs/logs.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime/ptime.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/stringext/stringext.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/uri/uri.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/unix/unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti/caqti.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt/lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/logs/logs_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian/ocplib_endian.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/threads/threads.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt/unix/lwt_unix.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt/unix /Users/takashiba/.opam/ocaml.5.0.0/lib/caqti-lwt/caqti_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/cstruct/cstruct.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/cstruct /Users/takashiba/.opam/ocaml.5.0.0/lib/base64/base64.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/hmap/hmap.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-pure/dream_pure.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/eqaf.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/bigstring/eqaf_bigstring.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/eqaf/cstruct/eqaf_cstruct.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto/mirage_crypto.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng/mirage_crypto_rng.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/cipher/dream__cipher.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphiql/dream__graphiql.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/digestif/c/digestif_c.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/digestif/c /Users/takashiba/.opam/ocaml.5.0.0/lib/fmt/fmt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/magic-mime/magic_mime_library.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-clock/mirage_clock.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ke/ke.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/uutf/uutf.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd/unstrctrd.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/unstrctrd/parser/unstrctrd_parser.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/base64/rfc2045/base64_rfc2045.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/bigarray-overlap/overlap.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/bigarray-overlap /Users/takashiba/.opam/ocaml.5.0.0/lib/prettym/prettym.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/pecu/pecu.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form/multipart_form.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/multipart_form-lwt/multipart_form_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/yojson/yojson.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/server/dream__server.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/re/re.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql_parser/graphql_parser.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/rresult/rresult.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql/graphql.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/graphql-lwt/graphql_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ocaml/str/str.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/graphql/dream__graphql.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/certificate/dream__certificate.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday/faraday.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten/dream_gluten.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_/dream_httpaf_.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/result/result.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-websocketaf/dream_websocketaf.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream_httpaf.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt/faraday_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/faraday-lwt-unix/faraday_lwt_unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt/dream_gluten_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ssl/ssl.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ssl /Users/takashiba/.opam/ocaml.5.0.0/lib/lwt_ssl/lwt_ssl.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-gluten-lwt-unix/dream_gluten_lwt_unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-hpack/dream_hpack.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/psq/psq.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2/dream_h2.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt/dream_h2_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-h2-lwt-unix/dream_h2_lwt_unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt/dream_httpaf__lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-httpaf/dream-httpaf_-lwt-unix/dream_httpaf__lwt_unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/http/dream__http.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/unix/dream__unix.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/sql/dream__sql.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/fmt/fmt_tty.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng/unix/mirage_crypto_rng_unix.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng/unix /Users/takashiba/.opam/ocaml.5.0.0/lib/duration/duration.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime/mtime.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime/clock/os/mtime_clock.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/mtime/clock/os /Users/takashiba/.opam/ocaml.5.0.0/lib/mirage-crypto-rng-lwt/mirage_crypto_rng_lwt.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime/clock/os/ptime_clock.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/ptime/clock/os /Users/takashiba/.opam/ocaml.5.0.0/lib/dream/dream.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/dream-html/dream_html.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/base/base_internalhash_types/base_internalhash_types.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base/base_internalhash_types /Users/takashiba/.opam/ocaml.5.0.0/lib/base/caml/caml.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/sexplib0/sexplib0.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/base/shadow_stdlib/shadow_stdlib.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/base/base.cmxa -I /Users/takashiba/.opam/ocaml.5.0.0/lib/base /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml/functor/tyxml_f.cmxa /Users/takashiba/.opam/ocaml.5.0.0/lib/tyxml/tyxml.cmxa lib/ocaml_htmx.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
+> ld: warning: directory not found for option '-L/usr/local/opt/tcl-tk/lib'
